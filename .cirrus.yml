@@ -21,3 +21,4 @@ windows_docker_builder:
       push_script: push_docker.bat
     - name: Build
       only_if: $CIRRUS_TAG == ''
+
